@@ -18,5 +18,14 @@
     justify-content: center;
     width: 75px;
     align-items: center;
+    color: #959aa3;
 }
 
+.header__search-icon:hover {
+color: #fff;
+background-color: #26a6f7;
+}
+
+.menuicon- {
+  border: none;
+}

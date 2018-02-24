@@ -66,7 +66,7 @@ nav h3 {
 
 .nav__main article:hover,
 .nav__admin article:hover {
-  border-left-color: blue;
+  border-left-color: #26aef5;
   background-color: #303949;
   color: #fff;
 }
