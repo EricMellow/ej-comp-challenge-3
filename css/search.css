@@ -1,0 +1,22 @@
+.header__search-input {
+   border: none;
+    border-left: 1px solid lightgray;
+        height: 76px;
+}
+
+.header__search-bar {
+  display: grid;
+  grid-template-columns: 75px 1fr 75px 75px 75px;
+  border-bottom: 1px solid lightgray;
+}
+
+.header__search-icon {
+  border: 1px solid #dfdfdf;
+  align-self: center;
+  height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 75px;
+    align-items: center;
+}
+
