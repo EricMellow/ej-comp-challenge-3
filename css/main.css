@@ -1,0 +1,36 @@
+.body__manager-pic {
+  height: 75px;
+  border-radius: 80%;
+}
+
+.main__body-info {
+  display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    padding: 0px 20px 0px 35px;
+    background-color: #edf2f6;
+        height: 843px;
+}
+
+table { 
+  border-collapse: collapse; 
+}
+
+td {
+  height: 66px;
+}
+
+.table__header {
+  background-color: #707e94;
+}
+
+.table__main-column {
+  width: 170px;
+  background-color: #fff;
+}
+
+.table__description-column {
+  background-color: #fff;
+}

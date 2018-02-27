@@ -1,7 +1,7 @@
 .header__search-input {
-   border: none;
-    border-left: 1px solid lightgray;
-        height: 76px;
+ border: none;
+ border-left: 1px solid lightgray;
+ height: 76px;
 }
 
 .header__search-bar {
@@ -11,19 +11,20 @@
 }
 
 .header__search-icon {
-  border: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
   align-self: center;
   height: 100%;
-    display: flex;
-    justify-content: center;
-    width: 75px;
-    align-items: center;
-    color: #959aa3;
+  display: flex;
+  justify-content: center;
+  width: 75px;
+  align-items: center;
+  color: #959aa3;
+  font-size: 20px;
 }
 
 .header__search-icon:hover {
-color: #fff;
-background-color: #26a6f7;
+  color: #fff;
+  background-color: #26a6f7;
 }
 
 .menuicon- {

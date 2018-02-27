@@ -44,24 +44,25 @@ nav h3 {
 }
 .nav__profile p {
   padding-top: 15px;
+  font-size: 14px;
 }
 .nav__main,
 .nav__admin {
   height: 245px;
-    border-bottom: 4px solid #2d3849;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 10px 0px 10px 0px;
+  border-bottom: 4px solid #2d3849;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
 }
 
 .nav__main article,
 .nav__admin article {
   border-left: 2px solid #354051;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .nav__main article:hover,
@@ -69,14 +70,15 @@ nav h3 {
   border-left-color: #26aef5;
   background-color: #303949;
   color: #fff;
+  cursor: pointer;
 }
 
 .nav__categories {
   /*height: 685px;*/
   height: 245px;
-    border-bottom: 4px solid #2d3849;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 10px 0px 10px 20px;
+  border-bottom: 4px solid #2d3849;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 0px 10px 20px;
 }

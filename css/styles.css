@@ -8,4 +8,9 @@
 * {
   margin: 0;
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
 }
