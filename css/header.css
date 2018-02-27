@@ -33,6 +33,11 @@ header p {
   font-size: 14px;
 }
 
+.fa-circle {
+  color: #8fc851;
+  margin-right: 5px;
+}
+
 .locationicon- {
   display: inline-block;
   color: #8b8d9a;
@@ -58,9 +63,10 @@ header p {
 .header__preview {
   color: #26a6f7;
 }
-.header__tab-summary {
+/*.header__tab-summary {
   margin: 0px 20px 0px 0px;
-}
+}*/
+
 .header__top-section {
   display: flex;
   justify-content: space-between;

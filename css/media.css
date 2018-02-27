@@ -1,0 +1,62 @@
+@media screen and (max-width: 1053px) {
+  
+nav {
+  display: none;
+}
+
+}
+
+@media screen and (max-width: 877px) {
+  
+nav {
+  display: none;
+}
+
+header h2 {
+  margin: 0px 5px 0px 5px;
+}
+
+.main__body-info {
+  height: 100%
+}
+
+}
+
+@media screen and (max-width: 676px) {
+  
+  aside {
+    max-width: 100%;
+  }
+
+table {
+  width: 90%;
+}
+
+  .aside-card,
+  .aside__resume-upload {
+    margin: 0px 59px;
+  }
+
+  .main__body-info {
+    padding: 0px 20px 0px 25px;
+    background-color: #edf2f6;
+    height: 100%;
+    display: inline-block;
+  }
+
+.main__job-table {
+      display: flex;
+    justify-content: center;
+}
+
+  .aside__social-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+.social-btn {
+  width: 80%;
+}
+}

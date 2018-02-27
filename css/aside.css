@@ -1,0 +1,60 @@
+aside {
+  margin-top: 44px;
+  max-width: 252px;
+}
+
+aside button {
+  height: 45px;
+}
+
+aside h5 {
+  display: inline-block;
+  font-size: 16px;
+  margin: 22px 0px 15px 5px;
+}
+
+aside input {
+  height: 45px;
+  width: 78%;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 25px;
+}
+
+.aside-card {
+  border-bottom: 2px solid lightgray;
+}
+
+.aside__p-text {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.facebook-btn {
+  background-color: #4d71c0;
+}
+
+.linkedin-btn {
+  background-color: #1582ba;
+}
+
+.social-btn {
+  width: 250px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: #fff;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.social__btn-text {
+  padding-left: 42px;
+}
+
+
+.twitter-btn {
+  background-color: #1ca9ec;
+}
