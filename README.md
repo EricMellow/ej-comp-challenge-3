@@ -1,5 +1,5 @@
-# ej-comp-challenge-1
-## Turing static comp project 1
+# ej-comp-challenge-3
+## Turing static comp project 3
 
 The purpose of this project is to make a static comp that looks like the one below.
 This static comp also needs to be responsive, and include hover states and ARIA.
