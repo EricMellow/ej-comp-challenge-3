@@ -62,7 +62,9 @@ header p {
 
 .header__preview {
   color: #26a6f7;
+      margin-left: 5px;
 }
+
 /*.header__tab-summary {
   margin: 0px 20px 0px 0px;
 }*/
