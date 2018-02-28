@@ -9,3 +9,5 @@ This static comp also needs to be responsive, and include hover states and ARIA.
 
 ### My Version:
 ![My Site](https://github.com/EricMellow/ej-comp-challenge-3/blob/master/Screen%20Shot%202018-02-28%20at%2010.12.32%20AM.png)
+
+![My Site](https://github.com/EricMellow/ej-comp-challenge-3/blob/master/Screen%20Shot%202018-02-28%20at%2010.12.56%20AM.png)
