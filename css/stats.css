@@ -32,6 +32,10 @@
 
 }
 
+.donut-graphs {
+  width: 100%;
+    display: flex;
+}
 .hr__left {
   margin-left: 35px;
 }
@@ -41,13 +45,18 @@
 }
 
 .main__donut-graphs {
-  display: flex;
-  justify-content: flex-end;
+      display: flex;
+    flex-direction: column;
 }
 
 .main__stats img {
- width: 32vw; 
- height: 170px;
+ width: 75%;
+}
+
+.main__bar-graph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main__body {
@@ -55,25 +64,30 @@
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
-  height: 315px;
+  height: 100%;
 }
 
 .main__stats {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-items: center;
-  margin-top: 35px;
-  padding: 0px 0px 0px 25px;
+      display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    justify-items: center;
+        margin-top: 30px;
+      /*display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+     justify-items: center; 
+    margin-top: 35px;
+    padding: 0px 0px 0px 25px;*/
 }
 
-.main__stats-btns button {
+.main__stats button {
   border-radius: 50px;
   height: 35px;
   width: 175px;
   font-size: 12px;
   font-weight: 600;
   color: #959aa3;
+  align-self: center;
 }
 
 .main__body hr {
@@ -81,8 +95,10 @@
   display: inline-block;
 }
 
-.stats-btns {
-  margin-top: 15px;
-  display: flex;
-  justify-content: space-around;
+.stats-btn {
+      margin-top: 15px
+}
+
+.totals-btn {
+      margin-top: 54px;
 }

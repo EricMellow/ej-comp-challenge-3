@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
   <title>Check It Out!</title>
   <link rel="icon" type="image/png" href="images/check-it-out.png">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -52,7 +52,7 @@
   <section class="header__search">
     <form class="header__search-bar">
       <i class="menuicon- header__search-icon"></i>
-      <input type="text" name="search" class="header__search-input" placeholder="&#xf002; Search for a job, task, or resume">
+      <input type="text" name="search" class="header__search-input" placeholder=" Search for a job, task, or resume">
       <i class="user-plusicon- header__search-icon"></i>
       <i class="calendaricon- header__search-icon"></i>
       <i class="thicon- header__search-icon"></i>
@@ -73,6 +73,9 @@
         <button class="header__btn"><i class="trashicon-"></i></button>
       </article>
     </section>
+    <section class="hidden-btn">
+      <h3>CHANGE DISPLAY<i class="fas fa-caret-down"></i></h2>
+    </section>
     <section class="header__tabs">
       <h2 class="header__tab-summary">SUMMARY</h2>
       <h2>APPLICANTS</h2>
@@ -86,6 +89,7 @@
   <section class="main__body">
     <section class="main__stats">
       <article class="main__donut-graphs">
+        <div class="donut-graphs">
       <svg width="33%" height="33%" viewBox="0 0 42 42" class="donut">
         <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#edf2f6"></circle>
         <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d8e5eb" stroke-width="2"></circle>
@@ -119,15 +123,12 @@
           FORWARDS
         </text>
       </svg>
+    </div>
+      <button class="totals-btn">TOTALS - Out of 5,280 views</button>
       </article>
-      <article>
+      <article class="main__bar-graph">
         <img src="images/graph.png">
-      </article>
-    </section>
-    <section class="main__stats-btns">
-      <article class="stats-btns">
-        <button>TOTALS - Out of 5,280 views</button>
-        <button>STATS/THINGS</button>
+        <button class="stats-btn">STATS & THINGS</button>
       </article>
     </section>
     <div class="main__divider-div">

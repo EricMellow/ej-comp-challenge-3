@@ -4,6 +4,15 @@
  height: 76px;
 }
 
+.header__search-input::placeholder {
+  background: url(../images/search.png) no-repeat;
+  background-size: 20px;
+  background-position: 15px 3px;
+  padding-left: 40px;
+  font-size: 20px;
+  color: #959aa3;
+}
+
 .header__search-bar {
   display: grid;
   grid-template-columns: 75px 1fr 75px 75px 75px;
@@ -26,6 +35,10 @@
 .header__search-icon:hover {
   color: #fff;
   background-color: #26a6f7;
+}
+
+.hidden-btn {
+  display: none;
 }
 
 .menuicon- {
