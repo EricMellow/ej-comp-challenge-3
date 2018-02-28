@@ -6,7 +6,7 @@
 
 .header__search-input::placeholder {
   background-position: 15px 3px;
-  background-size: 20px;
+  background-size: 10px;
   background: url(../images/search.png) no-repeat;
   color: #959aa3;
   font-size: 20px;
