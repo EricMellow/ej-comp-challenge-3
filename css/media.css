@@ -12,12 +12,12 @@
 
 @media screen and (max-width: 877px) {
 
-  nav {
-    display: none;
-  }
-
   header h2 {
     margin: 0px 5px 0px 5px;
+  }
+
+  nav {
+    display: none;
   }
 
   .main__body-info {
@@ -61,6 +61,13 @@
     margin: 0px 59px;
   }
 
+  .aside__social-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
   .fa-caret-down {
     margin-left: 5px;
     font-size: 20px;
@@ -97,13 +104,6 @@
     justify-content: center;
   }
 
-  .aside__social-buttons {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-
   .social-btn {
     width: 80%;
   }
@@ -120,19 +120,6 @@
     padding: 0px;
   }
 
-  .main__job-table {
-    margin-top: 35px;
-  }
-
-  .social__btn-text {
-    padding-left: 100px;
-  }
-
-  .main__job-table table {
-    display: flex;
-    justify-content: center;
-  }
-
   .copy-btn {
     font-size: 88%;
   }
@@ -141,9 +128,23 @@
     display: none;
   }
 
+  .main__job-table {
+    margin-top: 35px;
+  }
+
+  .main__job-table table {
+    display: flex;
+    justify-content: center;
+  }
+
   .main__divider-div {
     display: none;
   }
+
+  .social__btn-text {
+    padding-left: 100px;
+  }
+
   .thicon- {
     border: 1px solid #dfdfdf;
   }
@@ -156,41 +157,39 @@ header {
   padding: 35px 10px 0px 15px;
 }
 
+.calendaricon- {
+  display: none;
+}
+
+
 .header__preview {
   display: block;
 }
 
-.calendaricon- {
-    display: none;
-  }
+.header__search-bar {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 1px solid #dfdfdf;
+}
 
 .main__stats {
-    grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
-  }
+  grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
+}
   
-  .social__btn-text {
-    padding-left: 35px;
-  }
+.social__btn-text {
+  padding-left: 35px;
+}
 
-  .header__search-bar {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    border: 1px solid #dfdfdf;
-  }
+.thicon- {
+  border-right: none;
+  border-bottom: none;
+}
 
-  .thicon- {
-    border-right: none;
-    border-bottom: none;
-  }
 }
 
 @media screen and (max-width: 414px) {
 
-.thicon- {
-  display: none;
-}
-
-.header__btn-open {
-  display: none;
+header {
+  padding: 20px 5px 0px 15px
 }
 
 .aside-card,
@@ -198,16 +197,20 @@ header {
     margin: 0px 10px;
 }
 
-.main__body-info {
-    padding: 0px 10px 0px 10px;
-  }
-
-  .social-btn {
-    width: 95%;
+.header__btn-open {
+  display: none;
 }
 
-header {
-  padding: 20px 5px 0px 15px
+.main__body-info {
+  padding: 0px 10px 0px 10px;
+}
+
+.social-btn {
+  width: 95%;
+}
+
+.thicon- {
+  display: none;
 }
 
 }

@@ -8,9 +8,32 @@ td {
   border-bottom: 2px solid #ececec7a;
 }
 
+.table__header td {
+  background-color: #707e94;
+  border: none;
+  color: #fff;
+}
+
+.main__job-table h3 {
+  font-size: 16px;
+  padding: 0px;
+}
+
+.main__job-table h4 {
+  font-size: 14px;
+}
+
 .body__manager-pic {
   height: 75px;
-  border-radius: 80%;
+  border-radius: 50%;
+}
+
+.copy-btn {
+  border-style: none;
+  background-color: #4bbabf;
+  border-radius: 2px;
+  width: 21%;
+  margin-left: -3px;
 }
 
 .main__body-info {
@@ -25,46 +48,8 @@ td {
   grid-gap: 10px;
 }
 
-#bret-bretterson {
-  font-weight: 400;
-  font-size: 15px;
-  margin-left: 15px;
-}
-
-.copy-btn {
-  border-style: none;
-  background-color: #4bbabf;
-  border-radius: 2px;
-  width: 21%;
-  margin-left: -3px;
-}
-
-.table__header td {
-  background-color: #707e94;
-  border: none;
-  color: #fff;
-}
-
-.table__main-column {
-  width: 170px;
-  background-color: #fff;
-}
-
-.table__description-column {
-  background-color: #fff;
-}
-
 .main__job-table {
   margin-top: 90px;
-}
-
-.main__job-table h3 {
-  font-size: 16px;
-  padding: 0px;
-}
-
-.main__job-table h4 {
-  font-size: 14px;
 }
 
 .manager-data {
@@ -74,6 +59,9 @@ td {
   height: 102px;
 }
 
+.table__description-column {
+  background-color: #fff;
+}
 
 .table__edit-btn {
   border-style: none;
@@ -89,14 +77,24 @@ td {
   margin-right: 5px;
 }
 
-#table-spacer {
-  width: 5px;
-  border: none;
+.table__main-column {
+  width: 170px;
   background-color: #fff;
+}
+
+#bret-bretterson {
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 15px;
 }
 
 #header__table-spacer {
   width: 5px;
   border: none;
   background-color: #707e94;
+}
+#table-spacer {
+  width: 5px;
+  border: none;
+  background-color: #fff;
 }

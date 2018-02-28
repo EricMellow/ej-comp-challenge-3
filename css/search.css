@@ -1,40 +1,40 @@
 .header__search-input {
- border: none;
  border-left: 1px solid lightgray;
+ border: none;
  height: 76px;
 }
 
 .header__search-input::placeholder {
-  background: url(../images/search.png) no-repeat;
-  background-size: 20px;
   background-position: 15px 3px;
-  padding-left: 40px;
-  font-size: 20px;
+  background-size: 20px;
+  background: url(../images/search.png) no-repeat;
   color: #959aa3;
+  font-size: 20px;
+  padding-left: 40px;
 }
 
 .header__search-bar {
-  display: grid;
-  grid-template-columns: 75px 1fr 75px 75px 75px;
   border-bottom: 1px solid #dfdfdf;
   border-top: 1px solid #dfdfdf;
+  display: grid;
+  grid-template-columns: 75px 1fr 75px 75px 75px;
 }
 
 .header__search-icon {
-  border-left: 1px solid #dfdfdf;
+  align-items: center;
   align-self: center;
-  height: 100%;
+  border-left: 1px solid #dfdfdf;
+  color: #959aa3;
   display: flex;
+  font-size: 20px;
+  height: 100%;
   justify-content: center;
   width: 75px;
-  align-items: center;
-  color: #959aa3;
-  font-size: 20px;
 }
 
 .header__search-icon:hover {
-  color: #fff;
   background-color: #26a6f7;
+  color: #fff;
 }
 
 .hidden-btn {

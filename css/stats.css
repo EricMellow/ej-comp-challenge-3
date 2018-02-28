@@ -1,11 +1,20 @@
-.chart-text {
-  font-size: 3.5px;
-  fill: #000;
-  text-anchor: middle;
-  -moz-transform: translateY(0.25em);
-  -ms-transform: translateY(0.25em);
-  -webkit-transform: translateY(0.25em);
-  transform: translateY(1.6em);
+
+.main__stats button {
+  border-radius: 50px;
+  height: 35px;
+  width: 175px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #959aa3;
+  align-self: center;
+}
+
+.main__body hr {
+  width: 44%;
+  display: inline-block;
+}
+.main__stats img {
+ width: 75%;
 }
 
 .chart-number {
@@ -18,23 +27,21 @@
   transform: translateY(.1em);
 }
 
-#divider__btn {
-  height: 30px; 
-  width: 30px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-#divider__image {
-  margin: 3px 0px 0px 0px;
-  height: 70%;
-  width: 70%;
+.chart-text {
+  font-size: 3.5px;
+  fill: #000;
+  text-anchor: middle;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(1.6em);
 }
 
 .donut-graphs {
   width: 100%;
   display: flex;
 }
+
 .hr__left {
   margin-left: 35px;
 }
@@ -46,10 +53,6 @@
 .main__donut-graphs {
   display: flex;
   flex-direction: column;
-}
-
-.main__stats img {
- width: 75%;
 }
 
 .main__bar-graph {
@@ -72,25 +75,23 @@
   margin-top: 30px;
 }
 
-.main__stats button {
-  border-radius: 50px;
-  height: 35px;
-  width: 175px;
-  font-size: 12px;
-  font-weight: 600;
-  color: #959aa3;
-  align-self: center;
-}
-
-.main__body hr {
-  width: 44%;
-  display: inline-block;
-}
-
 .stats-btn {
   margin-top: 15px
 }
 
 .totals-btn {
   margin-top: 54px;
+}
+
+#divider__btn {
+  height: 30px; 
+  width: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#divider__image {
+  margin: 3px 0px 0px 0px;
+  height: 70%;
+  width: 70%;
 }

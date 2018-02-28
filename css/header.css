@@ -1,25 +1,25 @@
 header {
-  height: 170px;
+  border-bottom: 2px solid #dfdfdf;
   display: flex;
   flex-direction: column;
+  height: 170px;
   justify-content: space-between;
-  border-bottom: 2px solid #dfdfdf;
   padding: 35px 40px 0px 45px;
 }
 
 header h1 {
+  color: #6b6a6f;
   font-size: 26px;
   font-weight: 400;
   margin: 0px 0px 5px 0px;
-  color: #6b6a6f;
 }
 
 header h2 {
+  border-bottom: 3px solid transparent;
   display: inline-block;
   font-size: 12px;
-  padding-bottom: 20px;
-  border-bottom: 3px solid transparent;
   margin: 0px 20px 0px 20px;
+  padding-bottom: 20px;
 }
 
 header h2:hover {
@@ -28,8 +28,8 @@ header h2:hover {
 }
 
 header p {
-  display: inline-block;
   color: #8b8d9a;
+  display: inline-block;
   font-size: 14px;
 }
 
@@ -38,35 +38,36 @@ header p {
   margin-right: 5px;
 }
 
-.locationicon- {
-  display: inline-block;
-  color: #8b8d9a;
-}
 
 .header__btn {
   border-radius: 50%;
-  height: 35px;
-  width: 35px;
   color: #959aa3;
+  height: 35px;
   margin: 0px 4px 0px 4px;
+  width: 35px;
 }
 
 .header__btn-open {
   border-radius: 50px;
-  height: 35px;
-  width: 80px;
+  color: #959aa3;
   font-size: 12px;
   font-weight: 600;
-  color: #959aa3;
+  height: 35px;
+  width: 80px;
 }
 
 .header__preview {
   color: #26a6f7;
-      margin-left: 5px;
+  margin-left: 5px;
 }
 
 .header__top-section {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+}
+
+.locationicon- {
+  color: #8b8d9a;
+  display: inline-block;
 }

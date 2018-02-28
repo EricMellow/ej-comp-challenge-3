@@ -1,6 +1,6 @@
 aside {
   margin-top: 89px;
-    max-width: 252px;
+  max-width: 252px;
 }
 
 aside button {
@@ -14,11 +14,11 @@ aside h5 {
 }
 
 aside input {
-  height: 45px;
-  width: 78%;
-  border: none;
   border-radius: 2px;
+  border: none;
+  height: 45px;
   margin-bottom: 25px;
+  width: 78%;
 }
 
 .aside-card {
@@ -39,15 +39,15 @@ aside input {
 }
 
 .social-btn {
-  width: 250px;
-  height: 45px;
+  border-radius: 2px;
+  color: #fff;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  color: #fff;
-  border-radius: 2px;
+  height: 45px;
   margin-bottom: 15px;
   padding-left: 15px;
+  width: 250px;
 }
 
 .social__btn-text {
