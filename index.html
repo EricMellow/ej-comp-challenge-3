@@ -12,26 +12,26 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
-  <nav>
+  <nav aria-label="navigation bar">
     <section class="nav__profile">
       <img src="images/steve.png" class="nav__user-pic" alt="User profile photo">
       <p>Steve Brule</p>
     </section>
     <section class="nav__main">
       <h3>Main</h3>
-      <article><i class="fas fa-home"></i><p>HOME</p></article>
-      <article><i class="fas fa-briefcase"></i><p>JOBS</p></article>
-      <article><i class="fas fa-file-alt"></i><p>RESUMES</p></article>
-      <article><i class="far fa-clipboard"></i><p>TASKS</p></article>
-      <article><i class="far fa-calendar-alt"></i><p>CALENDAR</p></article>
+      <article><i class="fas fa-home"></i><p aria-label="home link">HOME</p></article>
+      <article><i class="fas fa-briefcase"></i><p aria-label="jobs link">JOBS</p></article>
+      <article><i class="fas fa-file-alt"></i><p aria-label="resumes link">RESUMES</p></article>
+      <article><i class="far fa-clipboard"></i><p aria-label="tasks link">TASKS</p></article>
+      <article><i class="far fa-calendar-alt"></i><p aria-label="calendar link">CALENDAR</p></article>
     </section>
     <section class="nav__admin">
       <h3>Admin</h3>
-      <article><i class="fas fa-users"></i><p>PRUPPETS</p></article>
-      <article><i class="locationicon-"></i><p>LOCATIONS</p></article>
-      <article><i class="fas fa-sitemap"></i><p>WORKFLOWS</p></article>
-      <article><i class="far fa-list-alt"></i><p>JOB BOARDS</p></article>
-      <article><i class="fas fa-share-alt"></i><p>SOCIAL</p></article>
+      <article><i class="fas fa-users"></i><p aria-label="pruppets link">PRUPPETS</p></article>
+      <article><i class="locationicon-"></i><p aria-label="locations link">LOCATIONS</p></article>
+      <article><i class="fas fa-sitemap"></i><p aria-label="workflows link">WORKFLOWS</p></article>
+      <article><i class="far fa-list-alt"></i><p aria-label="job boards link">JOB BOARDS</p></article>
+      <article><i class="fas fa-share-alt"></i><p aria-label="social link">SOCIAL</p></article>
     </section>
     <form class="nav__categories">
       <h3>Categories</h3>
@@ -50,7 +50,7 @@
     </form>
   </nav>
   <section class="header__search">
-    <form class="header__search-bar">
+    <form class="header__search-bar" aria-label="search bar">
       <i class="menuicon- header__search-icon"></i>
       <input type="text" name="search" class="header__search-input" placeholder=" Search for a job, task, or resume">
       <i class="user-plusicon- header__search-icon"></i>
@@ -59,7 +59,7 @@
     </form>
   </section>
   <header>
-    <section class="header__top-section">
+    <section class="header__top-section" aria-label="main header">
       <article class="header__job-info">
         <h1>Doctor</h1>
         <i class="locationicon-"></i>
@@ -67,10 +67,10 @@
         <p class="header__preview">Preview this post</p>
       </article>
       <article class="header__job-icons">
-        <button class="header__btn-open"><i class="fas fa-circle"></i>OPEN</button>
-        <button class="header__btn"><i class="fas fa-bookmark"></i></button>
-        <button class="header__btn"><i class="fas fa-pencil-alt"></i></button>
-        <button class="header__btn"><i class="trashicon-"></i></button>
+        <button class="header__btn-open" aria-label="open button"><i class="fas fa-circle"></i>OPEN</button>
+        <button class="header__btn" aria-label="save button"><i class="fas fa-bookmark"></i></button>
+        <button class="header__btn" aria-label="edit button"><i class="fas fa-pencil-alt"></i></button>
+        <button class="header__btn" aria-label="delete button"><i class="trashicon-"></i></button>
       </article>
     </section>
     <section class="hidden-btn">
@@ -87,7 +87,7 @@
     </section>
   </header>
   <section class="main__body">
-    <section class="main__stats">
+    <section class="main__stats" aria-label="section with graphs and stats">
       <article class="main__donut-graphs">
         <div class="donut-graphs">
       <svg width="33%" height="33%" viewBox="0 0 42 42" class="donut">
@@ -127,7 +127,7 @@
       <button class="totals-btn">TOTALS - Out of 5,280 views</button>
       </article>
       <article class="main__bar-graph">
-        <img src="images/graph.png">
+        <img src="images/graph.png" alt="A graph showing the stats and things">
         <button class="stats-btn">STATS & THINGS</button>
       </article>
     </section>
@@ -139,7 +139,7 @@
   </section>
   <section class="main__body-info">
     <article class="main__job-table">
-      <table>
+      <table aria-label="table featuring job description and information">
         <tr class="table__header">
           <td id="header__table-spacer"></td>
           <td><h3>JOB DESCRIPTION</h3></td>

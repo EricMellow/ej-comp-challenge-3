@@ -65,10 +65,6 @@ header p {
       margin-left: 5px;
 }
 
-/*.header__tab-summary {
-  margin: 0px 20px 0px 0px;
-}*/
-
 .header__top-section {
   display: flex;
   justify-content: space-between;

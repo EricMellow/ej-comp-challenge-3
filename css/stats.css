@@ -29,12 +29,11 @@
   margin: 3px 0px 0px 0px;
   height: 70%;
   width: 70%;
-
 }
 
 .donut-graphs {
   width: 100%;
-    display: flex;
+  display: flex;
 }
 .hr__left {
   margin-left: 35px;
@@ -45,8 +44,8 @@
 }
 
 .main__donut-graphs {
-      display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .main__stats img {
@@ -54,30 +53,23 @@
 }
 
 .main__bar-graph {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main__body {
   background-color: #edf2f6;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   height: 100%;
 }
 
 .main__stats {
-      display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
-    justify-items: center;
-        margin-top: 30px;
-      /*display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-     justify-items: center; 
-    margin-top: 35px;
-    padding: 0px 0px 0px 25px;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+  justify-items: center;
+  margin-top: 30px;
 }
 
 .main__stats button {
@@ -96,9 +88,9 @@
 }
 
 .stats-btn {
-      margin-top: 15px
+  margin-top: 15px
 }
 
 .totals-btn {
-      margin-top: 54px;
+  margin-top: 54px;
 }

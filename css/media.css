@@ -10,9 +10,6 @@
 
 }
 
-
-
-
 @media screen and (max-width: 877px) {
 
   nav {
@@ -47,8 +44,6 @@
   }
 
 }
-
-
 
 @media screen and (max-width: 740px) {
 
@@ -102,7 +97,6 @@
     justify-content: center;
   }
 
-
   .aside__social-buttons {
     display: flex;
     flex-direction: column;
@@ -120,7 +114,6 @@
 
 }
 
-
 @media screen and (max-width: 740px) {
 
   td {
@@ -134,10 +127,6 @@
   .social__btn-text {
     padding-left: 100px;
   }
-
-  /*.main__stats {
-    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
-  }*/
 
   .main__job-table table {
     display: flex;
@@ -161,12 +150,15 @@
 
 }
 
-
-
-
-
-
 @media screen and (max-width: 545px) {
+
+header {
+  padding: 35px 10px 0px 15px;
+}
+
+.header__preview {
+  display: block;
+}
 
 .calendaricon- {
     display: none;
@@ -179,4 +171,43 @@
   .social__btn-text {
     padding-left: 35px;
   }
+
+  .header__search-bar {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px solid #dfdfdf;
+  }
+
+  .thicon- {
+    border-right: none;
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+
+.thicon- {
+  display: none;
+}
+
+.header__btn-open {
+  display: none;
+}
+
+.aside-card,
+.aside__resume-upload {
+    margin: 0px 10px;
+}
+
+.main__body-info {
+    padding: 0px 10px 0px 10px;
+  }
+
+  .social-btn {
+    width: 95%;
+}
+
+header {
+  padding: 20px 5px 0px 15px
+}
+
 }

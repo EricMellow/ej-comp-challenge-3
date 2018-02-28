@@ -1,3 +1,13 @@
+table { 
+  border-collapse: collapse; 
+}
+
+td {
+  height: 66px;
+  padding: 20px 25px 20px 2px;
+  border-bottom: 2px solid #ececec7a;
+}
+
 .body__manager-pic {
   height: 75px;
   border-radius: 80%;
@@ -13,16 +23,6 @@
   background-color: #edf2f6;
   height: 843px;
   grid-gap: 10px;
-}
-
-table { 
-  border-collapse: collapse; 
-}
-
-td {
-  height: 66px;
-  padding: 20px 25px 20px 2px;
-  border-bottom: 2px solid #ececec7a;
 }
 
 #bret-bretterson {
